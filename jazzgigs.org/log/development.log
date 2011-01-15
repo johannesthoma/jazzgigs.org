@@ -1,0 +1,187 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-16 00:17:24) [GET]
+  Session ID: 1cb98602ffd1116abeec15a7dfd90f65
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/1.8/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/lib/ruby/1.8/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:135:in `start'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:112:in `fork'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:112:in `start'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:177:in `start'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:213:in `synchronize'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/passenger/passenger-spawn-server:46
+
+Rendering /home/johannes/Work/www.jazzgigs.org/jazzgigs.org/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-16 00:18:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--8d0fe8e40eb8928a552b0f8fb4a629f8004b8c6f
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/1.8/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/lib/ruby/1.8/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:135:in `start'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:112:in `fork'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:112:in `start'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:177:in `start'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:213:in `synchronize'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/passenger/passenger-spawn-server:46
+
+Rendering /home/johannes/Work/www.jazzgigs.org/jazzgigs.org/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-16 00:18:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--8d0fe8e40eb8928a552b0f8fb4a629f8004b8c6f
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/1.8/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/lib/ruby/1.8/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:135:in `start'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:112:in `fork'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:112:in `start'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:177:in `start'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:213:in `synchronize'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/passenger/passenger-spawn-server:46
+
+Rendering /home/johannes/Work/www.jazzgigs.org/jazzgigs.org/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-16 00:18:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--8d0fe8e40eb8928a552b0f8fb4a629f8004b8c6f
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/1.8/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/lib/ruby/1.8/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/1.8/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:135:in `start'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:112:in `fork'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:112:in `start'
+    /usr/lib/ruby/1.8/passenger/railz/application_spawner.rb:177:in `start'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:213:in `synchronize'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/lib/ruby/1.8/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/1.8/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/passenger/passenger-spawn-server:46
+
+Rendering /home/johannes/Work/www.jazzgigs.org/jazzgigs.org/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
