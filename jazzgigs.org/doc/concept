@@ -1,0 +1,50 @@
+Users authenticate themselves with email address and password.
+
+One user can manage several entities (band, venue, personal artist
+page). An entity can be managed by several users.
+
+On signing up the user is asked for a valid email address, a free-form
+non-empty password (which has to be typed twice) and optionally 
+real name (firstname, surname). Users are not required to provide
+their real name, however they are encouraged to do so.
+
+On the main screen of the user's home page there are following options:
+	Create a band
+	Create an artist page
+	Create a venue page
+	Schedule an event
+	Edit entities that belong to user
+
+The main page for visitors (not logged in) shows, sorted by
+date and then by place, events that are scheduled this week.
+(or so).
+
+It is possible to sign up for a newsletter without being a 
+user (that is have password and access tables and the like).
+Fans just provide their eMail address and get informed on
+events that occur on their watched objects (new event scheduled, 
+newsletter sent out, ...). It is possible to receive the eMails
+in digest form (that is only one per day / per week or so).
+-> Have settings even for fans. Fans can become regular users
+(how ...) maybe it is easier to not distinguish between users
+and fans however we want to make it easy to sign up for a newsletter.
+-> have links in all emails that allow fans to control their settings
+(``click here for settings'', then they are directed to a website
+where they can change their settings (digest mode, language and
+the like)
+
+On MP3/ogg upload: Scan the meta data and provide them as defaults
+for the song metadata (Composer, genre, ...)
+
+Entities have a well-known URL (for example www.jazzgigs.org/johannesthoma
+or www.jazzgigs.org/tunnelwien) that is reserved for them. They can
+change it at any time however it is not recommended to do so. 
+Via third party vendors, the pages can even be hostnames
+(like www.johannesthoma.com) by URL forwarding (not included
+in service).
+
+Priority: allow for uploading music and a profile photo, other
+stuff like videos, foto galleries and so on come later.
+
+On scheduling events, also ask for text to use in announcement
+eMails and allow for basic formatting (later??)

@@ -1,14 +1,14 @@
 class AddSomeTables < ActiveRecord::Migration
 	
 	def self.up
-		create_table :zak do |t|
+		create_table :events do |t|
 			t.integer :karin
 			t.string :lebt
 		end
 	end
 
 	def self.down
-		drop_table :zak
+		drop_table :events
 	end
 
 end

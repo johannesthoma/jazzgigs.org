@@ -1,0 +1,30 @@
+User
+	Firstname
+	Lastname
+	eMail (unique)
+	password hash (MD5)
+
+Event
+	Type:
+		Concert
+		Session
+		Festival
+		Other
+	Style:
+		Jazz
+		Rock
+		Pop
+		Classical
+		Other
+	Location:
+		Name
+		Address
+		Homepage
+	Time:
+		Date
+	Admission:
+		Price
+		Currency
+	Created_by: User
+
+
