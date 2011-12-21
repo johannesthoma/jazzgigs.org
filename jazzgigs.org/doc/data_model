@@ -27,4 +27,13 @@ Event
 		Currency
 	Created_by: User
 
+	Title
+	Band
+		Musician
+			Name
+			Instrument
+			Bio
+			Foto
+		Foto
+
 
