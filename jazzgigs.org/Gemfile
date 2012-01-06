@@ -1,0 +1,6 @@
+#source :rubygems
+source :gemcutter
+source "http://gems.rubyonrails.org" # for activerecord-oracle-adapter
+
+gem "rails", "~> 2.3.14"
+
