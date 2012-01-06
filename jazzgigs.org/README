@@ -30,12 +30,22 @@ for details.
 gem install bundler
 bundle install
 
+.) Copy the file config/database.yml.jazzgigs to config/database.yml.
+
 .) Edit the file config/database.yml to match your database 
 connection.
 
-.) Do a rake db:create
+For mysql, create a user, a database and allow user access to 
+database:
+
+bash$ mysql 
+mysql> create user 'jazzgigs'@'localhost' identified by 'jazzgigs';
+mysql> create database jazzgigs;
+mysql> grant all on jazzgigs.* to jazzgigs@localhost;
 
 .) rake db:migrate
+
+TODO: rake db:schema:load?
 
 I would like to encourage everyone who uses jazzgigs.org to 
 send me a feedback email to johannes.thoma@gmx.at, thank you!
