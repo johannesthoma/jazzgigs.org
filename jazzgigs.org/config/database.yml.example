@@ -3,8 +3,8 @@
 development:
   adapter: mysql
   database: jazzgigs
-  username: johannes
-  password: karinzak
+  username: jazzgigs
+  password: jazzgigs
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
