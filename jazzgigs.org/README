@@ -21,6 +21,15 @@ a rails plugin (such as passenger aka mod_rails), a database
 
 Here is an incomplete list of installation steps:
 
+.) I recommend using rvm, this is to have a separate ruby and a
+separate gemset for each application. See www.beginrescueend.com
+for details.
+
+.) I also use bundle, to install the gems do the following:
+
+gem install bundler
+bundle install
+
 .) Edit the file config/database.yml to match your database 
 connection.
 
